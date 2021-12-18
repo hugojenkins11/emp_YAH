@@ -9,3 +9,15 @@ We reread the hypothesis, realizign that we need to create a correlation between
 2021-12-16 6:30-ish PM EST
 
 Discussing our end goal again, how we are going to prove that size makes BinSearch more fast than LinSearch
+
+2021-12-17 7 PM EST
+
+Pushed our changes during class onto the repo to check the boxes of what needs to be there by Friday end of class, forgot to push it during class
+
+2021-12-18 5:00 PM EST
+
+Reconvening, ran into issues with types of arrays, found out that we can initialize arrays as comparable and still have them maintain any functionality we please
+
+2021-12-18 5:30 PM EST
+
+We realized how quick Java runs, rendering our time difference obsolete up to ~1000 elements. We devised a plan, which allowed for our code to handle arrays up to 67 million elements, giving us significant times to run with (exclusively for BinarySearch as of now) 
