@@ -45,7 +45,7 @@ public class LinSearch
     System.out.println( output );
   }
 
-
+/*
   //main method for testing
   public static void main ( String[] args )
   {
@@ -85,9 +85,8 @@ public class LinSearch
     System.out.println( linSearch(sArr,"lychee") );
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    /*----------------------------------------------------
-      ----------------------------------------------------*/
+
 
   }//end main()
-
+*/
 }//end class LinSearch

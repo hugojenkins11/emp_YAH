@@ -24,7 +24,7 @@ public class BinSearch
     //return binSearchRec( a, target, 0, a.length-1 );
   }
 
-
+/*
   public static int binSearchRec( Comparable[] a, Comparable target,
                                   int lo, int hi )
   {
@@ -48,7 +48,7 @@ public class BinSearch
 
     return tPos;
   }//end binSearchRec
-
+*/
 
   public static int binSearchIter( Comparable[] a, Comparable target,
                                    int lo, int hi )
@@ -105,7 +105,7 @@ public class BinSearch
   }
 
 
-
+/*
   //main method for testing
   public static void main ( String[] args ) {
 
@@ -152,5 +152,5 @@ public class BinSearch
     //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
   }//end main()
-
+*/
 }//end class BinSearch2
