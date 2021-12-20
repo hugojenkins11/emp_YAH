@@ -1,10 +1,15 @@
+YAH:: Ameer Alnasser+ TurtleBoi, Hugo Jenkins + Boary
+APCS pd6
+Lab03
+2021-12-20
+
 2021-12-16 12:00-ish PM EST
 
 Our first idea of implementation was to subtract the differences of times between binsearch and linsearch
 
 2021-12-16 12:30-ish PM EST
 
-We reread the hypothesis, realizign that we need to create a correlation between size and time difference. Now looking at showing the time divided by the size (time per index searched basically) 
+We reread the hypothesis, realizign that we need to create a correlation between size and time difference. Now looking at showing the time divided by the size (time per index searched basically)
 
 2021-12-16 6:30-ish PM EST
 
@@ -20,4 +25,4 @@ Reconvening, ran into issues with types of arrays, found out that we can initial
 
 2021-12-18 5:30 PM EST
 
-We realized how quick Java runs, rendering our time difference obsolete up to ~1000 elements. We devised a plan, which allowed for our code to handle arrays up to 67 million elements, giving us significant times to run with (exclusively for BinarySearch as of now) 
+We realized how quick Java runs, rendering our time difference obsolete up to ~1000 elements. We devised a plan, which allowed for our code to handle arrays up to 67 million elements, giving us significant times to run with (exclusively for BinarySearch as of now)
