@@ -1,3 +1,11 @@
+/**
+YAH:: Ameer Alnasser + TurtleBoi, Hugo Jenkins + Boary
+APCS pd6
+Lab03:: Search
+2021-12-20
+**/
+
+
 public class SearchDriver {
   long[] binTimes = new long[20];
   long[] linTimes = new long[20];
@@ -30,7 +38,7 @@ public class SearchDriver {
   }
 
   public void test2Lin() {
-    for (int e = 0; e < community.length + 1; e++) { // looking at every index and one extraneous
+    for (int e = 0; e < (int)(community.length/1_000_000); e++) { // looking at every index and one extraneous
       LinSearch.linSearch(community, e);
     }
   }
