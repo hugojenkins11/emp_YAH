@@ -26,3 +26,7 @@ Reconvening, ran into issues with types of arrays, found out that we can initial
 2021-12-18 5:30 PM EST
 
 We realized how quick Java runs, rendering our time difference obsolete up to ~1000 elements. We devised a plan, which allowed for our code to handle arrays up to 67 million elements, giving us significant times to run with (exclusively for BinarySearch as of now)
+
+2021-12-20 12:15 PM EST
+
+We are trying to figure out how many times to run linSearch and binSearch because it is taking too long. We also noticed that it seems that Math.random() takes a good amount of time. 
