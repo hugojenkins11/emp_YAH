@@ -15,32 +15,38 @@ public class SearchDriver {
   Comparable[] community;
 
   public void test() {
-    for (int u = 1; u <= 20; u ++) {
+    for (int u = 1; u <= 19; u ++) {
       community = new Comparable[(int)u * 4_000_000];
       populate(community);
       startTime = System.currentTimeMillis();
       test2Bin();
       endTime = System.currentTimeMillis();
+      System.out.println("Done with Bin " + u);
       avgTime = (endTime - startTime);
       binTimes[u-1] = avgTime;
       startTime = System.currentTimeMillis();
       test2Lin();
       endTime = System.currentTimeMillis();
+      System.out.println("Done with Lin " + u);
       avgTime = (endTime - startTime);
       linTimes[u-1] = avgTime;
     }
   }
 
   public void test2Bin() {
-    for (int e = 0; e < community.length + 1; e++) { // looking at every index and one extraneous
+    for (int e = 0; e < community.length; e++) {
       BinSearch.binSearch(community, e);
     }
   }
 
   public void test2Lin() {
-    for (int e = 0; e < (int)(community.length/1_000_000); e++) { // looking at every index and one extraneous
-      LinSearch.linSearch(community, e);
+    for (int e = 0; e < 100; e++) {
+      LinSearch.linSearch(community, (int)(Math.random() * community.length)+1);
     }
+
+    //for (int e = 0; e < (int)(community.length/1_000_000); e++) { // looking at every index and one extraneous
+    //  LinSearch.linSearch(community, e);
+    //}
   }
 
 /*
