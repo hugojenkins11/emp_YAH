@@ -3,7 +3,8 @@
 ---
 ## Tests Performed:
 
-* In order to try to find the total time it would take, we tried multiple tests to build up to our big test. One of them was to find the linearsearch time using the middle element and the other one found it using 100 searches. We knew that the 100 searches would be more precise and ended up using that to find how long it hypothetically would take to search for each element separately. It would be unfair to compare LinSearch with BinSearch if LinSearch was only 100 elements and BinSearch was looking for each element, so we multiplied the time for LinSearch by length/100 in our end results. 
+* In order to try to find the total time it would take, we tried multiple tests to build up to our big test. One of them was to find the linear search time using the middle element and the other one found it using 100 searches. We knew that the 100 searches would be more precise and ended up using that to find how long it hypothetically would take to search for each element separately. It would be unfair to compare LinSearch with BinSearch if LinSearch was only 100 elements and BinSearch was looking for each element, so we multiplied the time for LinSearch by length/100 in our end results. 
+* For binary search, we looked for every element of the array and took that total time. 
 --- 
 ## Results: 
 * After getting our peer modifications as well as testing our original method of attack, we noticed that it took wayyyyy too long to finish the linear search. So, we only ran 100 searches and multiplied by length/100 to approximate what it would be for the entire search. 
