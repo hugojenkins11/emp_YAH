@@ -15,7 +15,7 @@ public class SearchDriver {
   Comparable[] community;
 
   public void test() {
-    for (int u = 1; u <= 19; u ++) {
+    for (int u = 1; u <= 20; u ++) {
       community = new Comparable[(int)u * 4_000_000];
       populate(community);
       startTime = System.currentTimeMillis();
@@ -40,8 +40,8 @@ public class SearchDriver {
   }
 
   public void test2Lin() {
-    for (int e = 0; e < 100; e++) {
-      LinSearch.linSearch(community, (int)(Math.random() * community.length)+1);
+    for (double e = 0.00; e <= 1; e+=.01) {
+      LinSearch.linSearch(community,(int) (community.length*e));
     }
 
     //for (int e = 0; e < (int)(community.length/1_000_000); e++) { // looking at every index and one extraneous
