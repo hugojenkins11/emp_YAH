@@ -7,7 +7,7 @@
 --- 
 ## Results: 
 
-* We ran a multitude of tests and averaged the results in an Excel form. We attached our exact results [here:](https://docs.google.com/spreadsheets/d/18D3_c6V9efRh5DDQ9xt77HvQBMzrzqQNvs9rFgd-K3Q/edit#gid=0)
+* We ran a multitude of tests and averaged the results in an Excel form. We attached our exact results [here:](https://docs.google.com/spreadsheets/d/18D3_c6V9efRh5DDQ9xt77HvQBMzrzqQNvs9rFgd-K3Q/edit?usp=sharing)
 * Graphs [here:](https://docs.google.com/document/d/1rysJAFSL-ktMp3A7dJaLCnbclpuhJj8XK6FVaUrmbok/edit?usp=sharing)
  
 --- 
