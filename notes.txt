@@ -2,9 +2,18 @@ YAH:: Ameer Alnasser + TurtleBoi, Hugo Jenkins + Boary
 APCS pd6
 Lab03:: Search
 2021-12-20
+Time Spent: 6 hours
 
 DISCO:
-- currentTimeMillis returns a long of the current time.
+- currentTimeMillis() returns a long of the current time.
+- Java Heap Space is the amount of memory allocated to java in which it can store instantiated objects
+- Making lab logs to log your every step is a key part of learnination in computer science
+- How to derive a plan and enact that plan in code 
+- How to test a hypothesis using at first pseudo code and then real code
 
 QCC:
 - How would we easily show that the relationship changes as the length of the array changes? Does time/length work?
+- How many computations per second do our computers do?
+- How does currentTimeMillis() work?
+- Does currentTimeMillis() take a significant amount of time?
+- Exactly how long does Systen.out.print() take?
