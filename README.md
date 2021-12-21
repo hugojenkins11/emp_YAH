@@ -18,7 +18,7 @@
 
 --- 
 ## Conclusions: 
-* We found a relationship between the linear search times divided by the binary times. As the array size got bigger, it seemed that Binary Search would become faster and faster than Linear Search. The function of Binary Search and Linear Search surprised us. We expected there to be a Linear function as size increased for LinearSearch but there ended up being almost an exponential curve in the end while Binary Search was linear. After deliberations with Ameer's brother, we found out the reason for this relationship. For binary search, we know that it takes log2n+1 tries. so that formula would be n=log2 (n+1). If we multiplied by k on both sides (our array size), the new formula would be y ( or nk)= log 2 (n+1) log2(k). 
+* We found a relationship between the linear search times divided by the binary times. As the array size got bigger, it seemed that Binary Search would become faster and faster than Linear Search. The function of Binary Search and Linear Search surprised us. We expected there to be a Linear function as size increased for LinearSearch but there ended up being almost an exponential curve in the end while Binary Search was linear. After deliberations with Ameer's brother, we found out the reason for this relationship. For binary search, we know that it takes log2n+1 tries as its max. so that formula would be n=log2 (n+1). If we multiplied by k on both sides (our array size), the new formula would be y ( or nk)= log 2 (n+1) log2(k). As k went from 2.5 to 100, log2(k) went from 1.32 to 6.64, so the graph would appear like that. 
 
 ---
 ### Special Thanks
