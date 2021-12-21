@@ -1,7 +1,10 @@
-// YAH:: Ameer Alnasser+ TurtleBoi, Hugo Jenkins + Boary
-// APCS pd6
-// Lab03
-//2021-12-20
+/*
+YAH:: Ameer Alnasser + TurtleBoi, Hugo Jenkins + Boary
+APCS pd6
+Lab03:: Search
+2021-12-20
+Time Spent: 6 hours
+*/
 
 /**
    class LinSearch
