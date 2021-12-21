@@ -4,6 +4,8 @@
 ## Tests Performed:
 
 * In order to try to find the total time it would take, we tried multiple tests to build up to our big test. One of them was to find the linear search time using the middle element and the other one found it using 100 searches. We knew that the 100 searches would be more precise and ended up using that to find how long it hypothetically would take to search for each element separately. It would be unfair to compare LinSearch with BinSearch if LinSearch was only 100 elements and BinSearch was looking for each element, so we multiplied the time for LinSearch by length/100 in our end results. 
+
+  * This method was for each array, the array sizes grew by 2.5 million elements per loop
 * For binary search, we looked for every element of the array and took that total time. 
 --- 
 ## Results: 
