@@ -1,7 +1,10 @@
-DISCO: 
-- currentTimeMillis returns a long of the current time. 
+YAH:: Ameer Alnasser + TurtleBoi, Hugo Jenkins + Boary
+APCS pd6
+Lab03:: Search
+2021-12-20
+
+DISCO:
+- currentTimeMillis returns a long of the current time.
 
 QCC:
 - How would we easily show that the relationship changes as the length of the array changes? Does time/length work?
-
-

@@ -29,4 +29,8 @@ We realized how quick Java runs, rendering our time difference obsolete up to ~1
 
 2021-12-20 12:15 PM EST
 
-We are trying to figure out how many times to run linSearch and binSearch because it is taking too long. We also noticed that it seems that Math.random() takes a good amount of time. 
+We are trying to figure out how many times to run linSearch and binSearch because it is taking too long. We also noticed that it seems that Math.random() takes a good amount of time.
+
+2021-12-20 9:00 PM EST
+
+We are hypothesizing that finding the middle element of an array takes the average amount of time to find all of the array's elements because it is exactly between the worst and best case scenario.

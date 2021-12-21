@@ -16,7 +16,7 @@ public class SearchDriver {
 
   public void test() {
     for (int u = 1; u <= 20; u ++) {
-      community = new Comparable[(int)u * 4_000_000];
+      community = new Comparable[(int)u * 2_500_000];
       populate(community);
       startTime = System.currentTimeMillis();
       test2Bin();
@@ -29,7 +29,7 @@ public class SearchDriver {
       endTime = System.currentTimeMillis();
       System.out.println("Done with Lin " + u);
       avgTime = (endTime - startTime);
-      linTimes[u-1] = avgTime;
+      linTimes[u-1] = avgTime * (community.length / 100);
     }
   }
 
@@ -40,7 +40,7 @@ public class SearchDriver {
   }
 
   public void test2Lin() {
-    for (double e = 0.00; e <= 1; e+=.01) {
+    for (double e = 0.00; e <= 1.00; e+=.01) {
       LinSearch.linSearch(community,(int) (community.length*e));
     }
 
