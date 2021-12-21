@@ -24,4 +24,4 @@
 ### Special Thanks
 * Four for their insightful comments on our plan
 * JWJ for their insightful comments on our plan
-* Ameer's brother for their explanation of graph
+* Ameer's brother for helping us to understand the math behind the graphs
