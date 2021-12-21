@@ -7,7 +7,7 @@
 * For binary search, we looked for every element of the array and took that total time. 
 --- 
 ## Results: 
-* After getting our peer modifications as well as testing our original method of attack, we noticed that it took wayyyyy too long to finish the linear search. So, we only ran 100 searches and multiplied by length/100 to approximate what it would be for the entire search. 
+* After getting our peer modifications as well as testing our original method of attack, we noticed that it took way too long to finish the linear search. So, we only ran 100 searches and multiplied by length/100 to approximate what it would be for the entire search. 
 
 * We ran a multitude of tests and averaged the results in an Excel form. We attached our exact results [here:](https://docs.google.com/spreadsheets/d/18D3_c6V9efRh5DDQ9xt77HvQBMzrzqQNvs9rFgd-K3Q/edit?usp=sharing)
 * Graphs [here:](https://docs.google.com/document/d/1rysJAFSL-ktMp3A7dJaLCnbclpuhJj8XK6FVaUrmbok/edit?usp=sharing)
