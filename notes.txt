@@ -17,3 +17,15 @@ QCC:
 - How does currentTimeMillis() work?
 - Does currentTimeMillis() take a significant amount of time?
 - Exactly how long does Systen.out.print() take?
+
+GALLERY TOUR:
+- NYA
+  - Used a constuctor to instaniate and populate the array
+- Four
+  - Used three different tests to test different things
+  - Tested after how many searches binary search becomes faster than linear search
+    - This found that binary search will always become more efficient than linear search eventually
+- ABA
+  - Binary search is faster than linear search for all of their tests
+  - They linked an image into their README.md and say they did it by dragging it
+  
