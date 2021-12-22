@@ -36,6 +36,14 @@ We are trying to figure out how many times to run linSearch and binSearch becaus
 
 We are hypothesizing that finding the middle element of an array takes the average amount of time to find all of the array's elements because it is exactly between the worst and best case scenario.
 
-2021-12-21 11:15 PM EST
+2021-12-20 11:15 PM EST
 
 As we near the end of this journey, we start to ponder what we have learned. The friends we have made along the way are evidence of our learnination. 
+
+2021-12-21 9:15 PM EST
+
+THJ added his notes to the README under the section "Gallery Tour".
+
+2021-12-22 6:15 AM EST
+
+A revelation hit TAA to explain the data, still needs analysis. 
